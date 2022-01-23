@@ -14,7 +14,7 @@ public class App {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/drawing", "root",
-                    "@First2543");
+                    "yourpassword");
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT * FROM drawing.drawing_database_real_csv;");
             try {
