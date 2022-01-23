@@ -1,0 +1,4 @@
+number,shape,size,color,position_x,postion_y
+1,rectangle,small,red,10,10
+2,circle,medium,blue,10,50
+3,triangle,large,yellow,50,20
